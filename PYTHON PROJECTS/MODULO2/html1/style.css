@@ -1,0 +1,25 @@
+@keyframes color-change {
+  0%   { color: blue; }
+  33%  { color: red; }
+  66%  { color: green; }
+    }
+
+body {
+    font-family: Arial,  sans-serif; /* Font family */
+    font-size: 22px; /* O tamanho da fonte principal<p></p> tag  */
+    background-color: #000000; /* A cor do plano de fundo da página */
+    color: #00fbff; /* A cor do texto */ 
+}
+h1 {
+  animation: color-change 2s infinite;
+}
+h1 {
+    color: #009dff; /* A cor do cabeçalho */
+    font-size: 36px; /* A cor da fonte do cabeçalho */
+    font-family: Georgia, serif; /* A font usada no cabeçalho*/
+}
+h2 {
+    color: #0000ff; /* A cor do cabeçalho */
+    font-size: 30px; /* O tamanho da fonte do cabeçalho */
+    font-family: Verdana, sans-serif; /* A font usada no cabeçalho*/
+}
